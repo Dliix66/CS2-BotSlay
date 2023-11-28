@@ -15,7 +15,7 @@ public class BotSlay: BasePlugin
 	public override void Load(bool hotReload)
 	{
 		base.Load(hotReload);
-		Server.PrintToChatAll($"[BotSlay] Plugin {(hotReload ? "hot-re" : "")}loaded!");
+		Server.PrintToChatAll($"[{ChatColors.Green}BotSlay{ChatColors.Default}] Plugin {(hotReload ? "hot-re" : "")}loaded!");
 	}
 
 	[GameEventHandler(HookMode.Post)]
