@@ -6,6 +6,6 @@ CSSharp plugin to slay all bots when the last player dies
 - Execute `css_plugins list` on your server to check the install
 - You might have to `css_plugins load BotSlay` on the first install (or restart the server)
 
-#Known issue:
+# Known issue:
 - CSSharp has an issue causing some event not to be triggered until a hot-reload has been done
   > Run `css_plugins reload BotSlay` to fix the issue
