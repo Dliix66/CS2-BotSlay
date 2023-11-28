@@ -28,7 +28,8 @@ public class BotSlay: BasePlugin
 		List<CCSPlayerController> remainingPlayer = Utilities.GetPlayers();
 		foreach (CCSPlayerController ccsPlayerController in remainingPlayer)
 		{
-			if (ccsPlayerController.IsValid == false || ccsPlayerController.IsBot || ccsPlayerController.PlayerPawn.IsValid == false)
+			if (ccsPlayerController.IsValid == false || ccsPlayerController.IsBot ||
+				ccsPlayerController.PlayerPawn.IsValid == false || ccsPlayerController == evnt.Userid)
 				continue;
 
 			if (ccsPlayerController.PlayerPawn.Value.Health > 0 &&
