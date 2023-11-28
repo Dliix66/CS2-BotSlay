@@ -8,7 +8,7 @@ namespace BotSlay;
 public class BotSlay: BasePlugin
 {
 	public override string ModuleName => "BotSlay";
-	public override string ModuleVersion => "1.0.0";
+	public override string ModuleVersion => "1.0.1";
 	public override string ModuleAuthor => "Dliix66";
 	public override string ModuleDescription => "Slay bots when the last player dies.";
 
